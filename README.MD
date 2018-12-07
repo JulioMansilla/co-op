@@ -8,3 +8,6 @@ Paintings both Simple and Complex. Varying from student art projects to things d
 
 program that allows user to enter an image file and modify it using bootstrap dropdowns to select differrent modifiers to apply to the image
 
+#SchruteFarms
+
+A blog detailing the day-to-day operations of Schrute Farms. It will showcase the rooms, food, quality of the establishment and overall good times had. Future guests will be able to see the top-quality bedrooms of Schrute Farms, themed around America, Irrigation, and Nighttime, respectively. Guests will be able to participate in beet wine tasting, with beets grown right on this very farm. Schrute Farms also caters for weddings, so if you want to stand in your graves while your vows are being read to you, Schrute Farms is the way to go.
