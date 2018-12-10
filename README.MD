@@ -19,3 +19,7 @@ a stat calculator for organizing the allocation of stats for the game bloodborne
 #ReturnToFoodBlog
 
 A glorious return to an old project, the Pierrepont Food Blog. We will be updating our website to showcase the newest delightful, delicious, and delectable dishes. Breakfast, Lunch, Dinner, you name it. We have it all! Be sure to check it out once it's all finished! Our first one-hundred customers will recieve a 25% discount for their total bill! Make sure to leave us a review on Yelp, Twitter, Facebook, or anywhere! Constructive criticism is always appreciated!
+
+#Text-based-RPG
+
+A new fun roleplaying adventure using a text-based style. Many loveable characters will be created, and you will lose yourself in the experience of playing this game. It is still in development, but we are working as hard as we can. The game will feature several boss fights at the end of each stage, and you will be able to level up your characters as you please. Please be sure to check the game out!
