@@ -23,3 +23,16 @@ A glorious return to an old project, the Pierrepont Food Blog. We will be updati
 #Text-based-RPG
 
 A new fun roleplaying adventure using a text-based style. Many loveable characters will be created, and you will lose yourself in the experience of playing this game. It is still in development, but we are working as hard as we can. The game will feature several boss fights at the end of each stage, and you will be able to level up your characters as you please. Please be sure to check the game out!
+
+#greeting system based off user
+
+uses information about user to create greetings with images or suggested pages
+
+#office ranking 
+
+uses user ratings to determine the rank of office episodes
+
+#Word processor 
+
+a word processor allowing users to add their own fonts and accents
+
