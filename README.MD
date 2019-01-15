@@ -26,6 +26,59 @@ A new fun roleplaying adventure using a text-based style. Many loveable characte
 
 #greeting system based off user*
 
+
+					Mars 2020:
+
+					Characters:
+
+Cliff - Main Character of Mars 2020. An intelligent wizard who 
+almost fell off a cliff when he was a baby, hence his name. He is
+the leader of his band of adventurers, and values logic over emotion.
+A mix of Spock, Gandalf, and Dumbledore. He fights alongside his
+friend Dave the Paladin, and new Warriors, Swift Chris and Beardo
+the Berserker. (Potential names/plot)
+
+Stats: (30 points to spend for Heroes, max is 10 for one category)
+Strength (+1)
+Dexterity (+5)
+Constitution (+3)
+Intelligence (+10)
+Wisdom (+10)
+Charisma (+1)
+
+Enemies: The enemies of Cliff's band.
+
+Enemy 1: Brute
+
+Stats: (24 points to spend for enemies, max is 8 for one category)
+Strength (+8)
+Dexterity (+1)
+Constitution (+8)
+Intelligence (+2)
+Wisdom (+3)
+Charisma (+2)
+
+Enemy 2: Archer
+
+Stats: (24 points to spend for enemies, max is 8 for one category)
+Strength (+1)
+Dexterity (+6)
+Constitution (+3)
+Intelligence (+4)
+Wisdom (+8)
+Charisma (+2)
+
+Enemy 3: Caster
+
+Stats: (24 points to spend for enemies, max is 8 for one category)
+Strength (+1)
+Dexterity (+6)
+Constitution (+2)
+Intelligence (+8)
+Wisdom (+4)
+Charisma (+3)
+
+
 uses information about user to create greetings with images or suggested pages
 
 #office ranking ***
