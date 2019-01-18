@@ -21,41 +21,41 @@ friend Dave the Paladin, and new Warriors, Swift Chris and Beardo
 the Berserker. (Potential names/plot)
 
 Stats: (30 points to spend for Heroes, max is 10 for one category)
-Strength (+1)
-Dexterity (+5)
-Constitution (+3)
-Intelligence (+10)
-Wisdom (+10)
-Charisma (+1)
+Strength (11) =(+0)
+Dexterity (15) = (+2)
+Constitution (13) = (+1)
+Intelligence (20) = (+5)
+Wisdom (20) = (+5)
+Luck (11) = (+0)
 
 Enemies: The enemies of Cliff's band.
 
 Enemy 1: Brute
 
 Stats: (24 points to spend for enemies, max is 8 for one category)
-Strength (+8)
-Dexterity (+1)
-Constitution (+8)
-Intelligence (+2)
-Wisdom (+3)
-Charisma (+2)
+Strength (18)
+Dexterity (11)
+Constitution (18)
+Intelligence (12)
+Wisdom (13)
+Charisma (12)
 
 Enemy 2: Archer
 
 Stats: (24 points to spend for enemies, max is 8 for one category)
-Strength (+1)
-Dexterity (+6)
-Constitution (+3)
-Intelligence (+4)
-Wisdom (+8)
-Charisma (+2)
+Strength (11)
+Dexterity (16)
+Constitution (13)
+Intelligence (14)
+Wisdom (18)
+Charisma (12)
 
 Enemy 3: Caster
 
 Stats: (24 points to spend for enemies, max is 8 for one category)
-Strength (+1)
-Dexterity (+6)
-Constitution (+2)
-Intelligence (+8)
-Wisdom (+4)
-Charisma (+3)
+Strength (11)
+Dexterity (16)
+Constitution (12)
+Intelligence (18)
+Wisdom (14)
+Charisma (13)
