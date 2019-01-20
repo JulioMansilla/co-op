@@ -11,6 +11,34 @@ A new fun roleplaying adventure using a text-based style. Many loveable characte
 
 					Mars 2020:
 
+					Mechanics
+STATS- an entity has 6 different stats with an average of 10 per stat - characters start with a stat 18 or below;
+
+	Base stats
+		str = 10; 
+		dex = 10; 
+		con = 10; 
+		int = 10; 
+		wis = 10; 
+		lck = 10; 
+
+
+	attribute Bonus(AB) <(stat-10)/2>
+	*Add flat damage
+	*Add AC
+	*ADD to saves
+	*Hit points
+
+	chr.example
+		Attribute Bonus
+		str = 11; SB = 0;
+		dex = 17; DB = 3;
+		con = 13; CB = 1;
+		int = 18; IB = 4;
+		wis = 18; WB = 4;
+		lck = 13; LB = 1;
+
+
 					Characters:
 
 Cliff - Main Character of Mars 2020. An intelligent wizard who 
