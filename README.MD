@@ -29,6 +29,33 @@ STATS- an entity has 6 different stats with an average of 10 per stat - characte
 	*ADD to saves
 	*Hit points
 
+	@creation
+	HP = 8 + CB
+	AC = 10 + DB + items + {LB}
+	MR = CB + (WB * 2) + Items
+	Mana = WB + (IB * 2)
+	Attack Bonus = Level + SB
+	Political Bonus = Blue: (-2 STR, -2 DEX, +2 WIS, +2 INT, 200 Gold, 100 Score) | Red: (+2 STR, +2 DEX, -2 WIS, -2 INT, 100 Gold, 200 Score) | White: (+0 Stats, 9,001 Score)
+	Gold = Political Bonus + (1D100 * LB)
+	Score = Political Bonus + (1D100 * LB)
+	Inventory[] = Blue: (Tool = Lunar Book, Weapon = Cell Phone, Armor = Space Helmet) | Red: (Tool = Solar Book, Weapon = Drill, Armor = Space Helmet) | White: (Nothing)
+
+	@level up
+	HP = HP + 1D8 + CB
+	AC = 10 + DB + Items + [LB]
+	MR = MR + CB + (WB * 2) + Items
+	Mana = Mana + WB + (IB * 2)
+	Attack Bonus = Attack Bonus + Level + SB
+	Political Bonus = (Decisions in the future may affect these numbers)
+	Gold = N/A
+	Score = N/A
+	Inventory[] = N/A
+
+	(HP formula) = base health + armor + AB
+	(MP formula) = intelligence + (luck * 2) + class mana bonus
+	(AC formula) = HP + class health bonus
+	level up = stats * LUCKBONUS
+
 	chr.example
 		Attribute Bonus
 		str = 11; SB = 0;
