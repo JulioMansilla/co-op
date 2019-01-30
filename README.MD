@@ -85,7 +85,7 @@ the Berserker. (Potential names/plot)
 
 Base Stats:
 
-Stats: (30 points to spend for Heroes, max is 18 for one category)
+Stats: (30 points to spend for Heroes, max is 18 for one category) 
 Strength (13) = (+1)
 Dexterity (13) = (+1)
 Constitution (13) = (+1)
@@ -197,9 +197,12 @@ Chapter One []
 
 Combat Stats:
 
-chanceMelee: Level + DB + 1D20
-chanceSpell: Level + WB + 1D20
-damageMelee: Level + SB + 1D20
-damageSpell: Level + IB + 1D20
+chanceMelee: Level + DB + 1D20 + LC
+chanceSpell: Level + WB + 1D20 + LC
+damageMelee: Level + SB + 1D20 + LC
+damageSpell: Level + IB + 1D20 + LC
 
+LC = LB + (Level/2)% (Rounded Up)
 Example Combat
+
+
