@@ -11,6 +11,10 @@ A new fun roleplaying adventure using a text-based style. Many loveable characte
 
 					Mars 2020:
 
+	prologue
+			After the great shutdown of 2018 - 2019 the U.S government found itself incapable of building a necessary defensive structure to keep out the invading caravans. By April first of 2019 the U.S had been completely overtaken by the numerous invading caravans made of "stone cold criminals" The U.S was immediatly made into a lawless waste-land. In a measure to prevent Voter ID Fraud for the 2020 election the president decided that the only valid form of identification was tweet from 2016 or earlier that said "MAEK AMERICA GREAT AGAIN!!!!!" but because of the oddly specific criteria you were the only one who qualified to vote.
+
+
 					Mechanics
 STATS- an entity has 6 different stats with an average of 10 per stat - characters start with a stat 18 or below;
 
