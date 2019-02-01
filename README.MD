@@ -202,7 +202,7 @@ chanceSpell: Level + WB + 1D20 + LC
 damageMelee: Level + SB + 1D20 + LC
 damageSpell: Level + IB + 1D20 + LC
 
-LC = LB + (Level/2)% (Rounded Up)
+LC = LB * sqrt(level);
 Example Combat
 
 
