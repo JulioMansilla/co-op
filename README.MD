@@ -103,6 +103,7 @@ Political Bonus = Blue: (-2 STR, -2 DEX, +2 WIS, +2 INT, 200 Gold, 100 Score) | 
 Gold = Political Bonus + (1D100 * LB (1))
 Score = Political Bonus + (1D100 * LB (1))
 Inventory[] = Blue: (Tool = Lunar Book, Weapon = Cell Phone, Armor = Space Helmet) | Red: (Tool = Solar Book, Weapon = Drill, Armor = Space Helmet) | White: (Nothing)
+XP = 0
 
 Red:
 
@@ -124,6 +125,7 @@ Political Bonus = Blue: Red: (+2 STR, +2 DEX, -2 WIS, -2 INT, 100 Gold, 200 Scor
 Gold = Political Bonus + (1D100 * LB (2))
 Score = Political Bonus + (1D100 * LB (2))
 Inventory[] = Red: (Tool = Solar Book, Weapon = Drill, Armor = Space Helmet)
+XP = 0
 
 Blue:
 
@@ -147,6 +149,7 @@ Political Bonus = Blue: (-2 STR, -2 DEX, +2 WIS, +2 INT, 200 Gold, 100 Score)
 Gold = Political Bonus + (1D100 * LB (2))
 Score = Political Bonus + (1D100 * LB (2))
 Inventory[] = Blue: (Tool = Lunar Book, Weapon = Cell Phone, Armor = Space Helmet)
+XP = 0
 
 Enemies: The enemies of Cliff's band.
 
@@ -176,7 +179,7 @@ AC = 10 + DB (1) + items + LB (1)
 MR = CB (1) + (WB (1) * 2) + Items
 Mana = WB (1) + (IB (1) * 2)
 Attack Bonus = Level + SB (1)
-
+give XP = level * 100
 Enemy 3: Caster
 
 Stats: (24 points to spend for enemies, max is 8 for one category)
