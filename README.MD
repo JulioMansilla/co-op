@@ -108,6 +108,7 @@ Political Bonus = Blue: (-2 STR, -2 DEX, +2 WIS, +2 INT, 200 Gold, 100 Score) | 
 Gold = Political Bonus + (1D100 * LB (1))
 Score = Political Bonus + (1D100 * LB (1))
 Inventory[] = Blue: (Tool = Lunar Book, Weapon = Cell Phone, Armor = Space Helmet) | Red: (Tool = Solar Book, Weapon = Drill, Armor = Space Helmet) | White: (Nothing)
+XP = 0
 
 Red:
 
@@ -129,6 +130,7 @@ Political Bonus = Blue: Red: (+2 STR, +2 DEX, -2 WIS, -2 INT, 100 Gold, 200 Scor
 Gold = Political Bonus + (1D100 * LB (2))
 Score = Political Bonus + (1D100 * LB (2))
 Inventory[] = Red: (Tool = Solar Book, Weapon = Drill, Armor = Space Helmet)
+XP = 0
 
 Blue:
 
@@ -152,6 +154,7 @@ Political Bonus = Blue: (-2 STR, -2 DEX, +2 WIS, +2 INT, 200 Gold, 100 Score)
 Gold = Political Bonus + (1D100 * LB (2))
 Score = Political Bonus + (1D100 * LB (2))
 Inventory[] = Blue: (Tool = Lunar Book, Weapon = Cell Phone, Armor = Space Helmet)
+XP = 0
 
 Enemies: The enemies of Cliff's band.
 
@@ -181,7 +184,7 @@ AC = 10 + DB (1) + items + LB (1)
 MR = CB (1) + (WB (1) * 2) + Items
 Mana = WB (1) + (IB (1) * 2)
 Attack Bonus = Level + SB (1)
-
+give XP = level * 100
 Enemy 3: Caster
 
 Stats: (24 points to spend for enemies, max is 8 for one category)
@@ -211,3 +214,14 @@ LC = LB * sqrt(level);
 Example Combat
 
 
+																            [E1]
+																	/	             \	
+																   [E2]             [E3]					
+																  /     \          /    \
+															   [E4]  [E5]	      [E6]    [E7]
+															 /  \     /  \	      /  \       /  \				
+														 [E8] [E9] [E10] [E11] [E12] [E13] [E14] [E15] 						
+
+First Section:
+
+When you arrive on Mars, you will be greeted by a guide (who will be the same party as you), and they will explain the backstory and events that have lead up to this point. They will lead you to a path with three branches. The left branch has two inns side by side, the right has a burning building, and the middle one continues on out of sight. If you approach the burning building, there will be a man in a suit standing next to it. If you go up to him and ask him what happened, he will simply say "Ryan". If you ask him what happened more than three times, "We Didn't Start The Fire" will start playing, and you will burn up from being too close to the building for too long. If you approach the inns, you will see that you can stay there. The inn on the left will be for Blue party members, and the one on the right for Red. However, your character doesn't know this. If you are part of the Red party and choose the Blue Inn, your Solar Book will be turned into a Cell Phone. If you try to use this item in combat, it will say "You're not smart enough to use this item." If you are part of the Blue party and choose the Red Inn, your Cell Phone will be turned into a Solar Book. If you try to use this item in combat, it will say "You're not strong enough to use this item.." If you stay at the inn corresponding to your party, you lose 9000 gold, but all bonuses go up by one for your next encounter. You can only stay at these inns once.
