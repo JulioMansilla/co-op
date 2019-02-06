@@ -22,6 +22,8 @@ Chapter 1
 
 E1="You arrive at the polls and notice that you are the only person present. Strangely, once you look at your ballout, you realize you hadn't yet considered who you would vote for. Will you vote for, the red party, who promises to get you off this God forsaken land, the blue party, who promises to fix the situation but will also just end up going to mars, the independent party who won't go to mars, or will you not vote at all."
 
+
+
 					Mechanics
 STATS- an entity has 6 different stats with an average of 10 per stat - characters start with a stat 18 or below;
 
