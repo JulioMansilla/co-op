@@ -2,18 +2,12 @@ body {
 	background-image: url("../img/mars2.jpg");
 }
 
-.blue {
-	color: #4286f4;
-	font-size: 100px;
-	font-family:"Comic Sans MS";
-	background-color: rgba(0, 0, 0, 0.5); 
-}
 
-.blue2 {
+
+p {
 	color: #4286f4;
 	font-size: 25px;
 	font-family:"Comic Sans MS";
-	background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .red {
@@ -25,4 +19,16 @@ body {
 
 .title {
 	margin: 25px 0px;
+}
+.main {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+}
+
+b {
+	color: #4286f4;
+	font-size: 100px;
+	font-family:"Comic Sans MS";
+	background-color: rgba(0, 0, 0, 0.5); 
+	padding: 20px;
 }
