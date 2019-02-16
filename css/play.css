@@ -1,0 +1,50 @@
+.container {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+body {
+  background-image: url("../img/mars2.jpg");
+}
+
+.blue {
+  color: #4286f4;
+  font-size: 100px;
+  font-family: 'Luckiest Guy', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  color: #4286f4;
+  font-size: 25px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.red {
+  color: #ff0000;
+  font-size: 25px;
+  font-family: 'Luckiest Guy', cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.title {
+  margin: 25px 0px;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+b {
+  color: #4286f4;
+  font-size: 100px;
+  font-family: 'Luckiest Guy', cursive;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+}
