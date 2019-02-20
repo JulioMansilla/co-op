@@ -42,3 +42,14 @@ b {
 	background-color: rgba(0, 0, 0, 0.5); 
 	padding: 20px;
 }
+
+.bio {
+	color: #4286f4;
+	font-size: 21px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.bio-pic {
+	width: 184px;
+	height: 224px;
+}
