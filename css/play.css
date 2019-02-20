@@ -1,6 +1,10 @@
+html, body, container {
+  height: 100%;
+}
+
 .row {
   border-style: solid;
-  border-color: black;
+  border-color: red;
   border-width: 1px;
 }
 
@@ -8,37 +12,10 @@ body {
   background-image: url("../img/mars2.jpg");
 }
 
-.blue {
-  color: #4286f4;
-  font-size: 100px;
-  font-family: 'Luckiest Guy', cursive;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 p {
   color: #4286f4;
   font-size: 25px;
   font-family: 'Luckiest Guy', cursive;
-}
-
-.red {
-  color: #ff0000;
-  font-size: 25px;
-  font-family: 'Luckiest Guy', cursive;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.btn {
-  font-family: 'Luckiest Guy', cursive;
-  background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.title {
-  margin: 25px 0px;
-}
-.main {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px;
 }
 
 b {
@@ -50,5 +27,28 @@ b {
 }
 
 .transparent {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fifty {
+  min-height: 400px;
+}
+
+.twenty5 {
+  min-height: 200px;
+}
+
+input {
+  font-size: 25px;
+  color: white;
+  font-family: 'Comic Sans MS';
+  margin: 15px 0px 5px 0px;
+  border-width: 0px;
+  min-width:100%;
+  min-height:100%
+}
+input::placeholder {
+  font-size: 25px;
+  color: white;
+  font-family: 'Comic Sans MS';
 }
