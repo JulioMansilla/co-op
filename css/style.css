@@ -1,5 +1,7 @@
 body {
-	background-image: url("../img/mars2.jpg");
+  background-image: url("../img/mars2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .blue {
