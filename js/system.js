@@ -1,1 +1,4 @@
-console.log("It did work!");
+$('#g-input').val();
+$(document).ready(function(){
+	console.log($('#g-input').val());
+});
