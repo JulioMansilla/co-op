@@ -231,3 +231,13 @@ user_info (username and password)
 entity_info (NPC statss)
 story_tree (progress)
 character_info (user stats)
+
+									Commands
+
+									- go (direction);
+									- inspect (all);
+									- use (item, weapon, spell, cash);
+									- talk (person);
+									- grab  (item, weapon, spell, cash);
+									- run/flee (direction);
+									- red button ();
