@@ -241,3 +241,42 @@ character_info (user stats)
 									- grab  (item, weapon, spell, cash);
 									- run/flee (direction);
 									- red button ();
+
+Map:
+
+##New Canada
+Room #1: House
+-Room Description: You wake up in this room.
+-Pathways: Patio
+-Objects: Bed, PC, Mirror
+-Characters:
+
+Room #2: Patio
+-Room Description: You step outside onto the patio. It is a chilly afternoon.
+-Pathways: House, WacDonalds, Downtown
+-Objects: Rocking Chair, Table, Chairs
+-Characters: 
+
+Room #3: WacDonalds
+-Room Description: A nice place to eat.
+-Pathways: Patio, Downtown
+-Objects: Table, Chair, Register
+-Characters: WacDonalds Employee
+
+Room #5: SpaceX
+-Room Description: A company that needs you as an employee, because everyone else is at the polls.
+-Pathways: Patio, R4
+-Objects: Desk
+-Characters: Elon Lastname
+
+Room #6: Downtown
+-Room Description: Everyone is yelling and in a hurry for no particular reason.
+-Pathways: WacDonalds, Polls
+-Objects: 
+-Characters: Citizens
+
+Room #7: Polls
+-Room Description: You can vote here. Nothing else is important.
+-Pathways: Downtown
+-Objects: Booths
+-Characters: Voters
