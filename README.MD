@@ -256,27 +256,40 @@ Room #2: Patio
 -Pathways: House, WacDonalds, Downtown
 -Objects: Rocking Chair, Table, Chairs
 -Characters: 
+-Art: /img/bg-patio.jpg
 
 Room #3: WacDonalds
 -Room Description: A nice place to eat.
--Pathways: Patio, Downtown
+-Pathways: Patio, Behind WacDonalds
 -Objects: Table, Chair, Register
 -Characters: WacDonalds Employee
 
+Room #4 Behind WacDonalds 
+-Room Description: There's a dumpster.
+Pathways: WacDonalds, SpaceX
+Objects: Dumpster
+Character: Thief
+
 Room #5: SpaceX
 -Room Description: A company that needs you as an employee, because everyone else is at the polls.
--Pathways: Patio, R4
+-Pathways: Behind WacDonalds, Downtown
 -Objects: Desk
 -Characters: Elon Lastname
 
 Room #6: Downtown
 -Room Description: Everyone is yelling and in a hurry for no particular reason.
--Pathways: WacDonalds, Polls
+-Pathways: Patio, SpaceX, Polls
 -Objects: 
 -Characters: Citizens
 
 Room #7: Polls
 -Room Description: You can vote here. Nothing else is important.
--Pathways: Downtown
+-Pathways: Downtown, WacDonalds, Launchpad
 -Objects: Booths
+-Characters: Voters
+
+Room #8: Launchpad:
+-Room Description: You can take off to Mars if you vote first.
+-Pathways: Polls
+-Objects: Launchpad, Rocket
 -Characters: Voters
