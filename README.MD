@@ -81,6 +81,46 @@ lck = 13; LB = 1;
 
 					Characters:
 
+		Character # 1
+		Name: House-fly
+		initial location: House
+		Bio: flys in house
+
+		Character # 2
+		Name: Reginald
+		initial location: Patio
+		Bio: Encourages you to pokemon go to the pols
+
+		Character # 3
+		Name: R2 Flip2
+		initial location: Wacdonalds
+		Bio: The only reason it exists is to flip patties
+
+		Character # 4
+		Name: Gritty
+		initial location: Dowtown
+		Bio: Incourages you to seize the means of production.
+
+		Character # 5
+		Name: Testostero
+		initial location: Downtown
+		Bio: Warns you about the dangers of soy, and offers to sell you his masculinity pill. Functions as a merchant for attack buff items.
+
+		Character # 6
+		Name: Musk recruiter
+		initial location: Space X
+		Bio: Tells you she loves her job and you should work for space X too.
+
+		Character # 7
+		Name: Dumpster diver
+		initial location: back of Wacdonalds
+		Bio: Tells you about the treasures that can be found inside the dumpster.
+
+		Character # 8
+		Name: Vote bot
+		initial location: Polls
+		Bio: Tells you that your decision will decide the fate of the world.
+
 Cliff - Main Character of Mars 2020. An intelligent wizard who 
 almost fell off a cliff when he was a baby, hence his name. He is
 the leader of his band of adventurers, and values logic over emotion.
