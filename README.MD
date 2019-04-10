@@ -4,7 +4,7 @@
 
 #Text-based-RPG
 
-A new fun roleplaying adventure using a text-based style. Many loveable characters will be created, and you will lose yourself in the experience of playing this game. It is still in development, but we are working as hard as we can. The game will feature several boss fights at the end of each stage, and you will be able to level up your characters as you please. Please be sure to check the game out!
+We took a vote between these three options and Text-based-RPG won. We now bring you mars 2020
 
 #greeting system based off user*
 
@@ -72,55 +72,64 @@ Attribute Bonus
 `int = 18; IB = 4;`
 `wis = 18; WB = 4;`
 `lck = 13; LB = 1;`
+
 # Characters:
+
 ## Prologue characters
 ### Character # 1
 - Name: House-fly
 - initial location: House
 - Bio: flies in house
-- Img:
+- Img:img/character images/Character1.png
 ![Character1](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character1.png)
+
 ### Character # 2
 - Name: Reginald
 - initial location: Patio
 - Bio: Encourages you to pokemon go to the pols
-- Img:
+- Img:img/character images/Character2.png
 ![Character2](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character2.png)
+
 ### Character # 3
 - Name: R2 Flip2
 - initial location: Wacdonalds
 - Bio: The only reason it exists is to flip patties
-- Img:
+- Img:img/character images/Character3.png
 ![Character3](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character3.png)
+
 ### Character # 4
 - Name: Gritty
 - initial location: Dowtown
 - Bio: Incourages you to seize the means of production.
-- Img:
+- Img:img/character images/Character4.png
 ![Character4](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character4.png)
+
 ### Character # 5
 - Name: Testostero
 - initial location: Downtown
 - Bio: Warns you about the dangers of soy, and offers to sell you his masculinity pill. Functions as a merchant for attack buff items.
-- Img:
+- Img:img/character images/Character5.png
 ![Character5](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character5.png)
+
 ### Character # 6
 - Name: Musk recruiter
 - initial location: Space X
 - Bio: Tells you she loves her job and you should work for space X too.
-- Img:
+- Img:img/character images/Character6.png
 ![Character6](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character6.png)
+
 ### Character # 7
 - Name: Dumpster diver
 - initial location: back of Wacdonalds
 - Bio: Tells you about the treasures that can be found inside the dumpster.
-- Img:
+- Img: img/character%20images/Character7.png
 ![Character7](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character7.png)
+
 ### Character # 8
 - Name: Vote bot
 - initial location: Polls
 - Bio: Tells you that your decision will decide the fate of the world.
-- Img:
+- Img: img/character images/Character8.png
 ![Character8](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character8.png)
 
 
@@ -263,50 +272,56 @@ _Stats: (24 points to spend for enemies, max is 8 for one category)_
 - Pathways: Patio
 - Objects: Bed, PC, Mirror
 - Characters: House-fly
-- Image:
+- Image: documents/room1.png
 ![Room1](https://github.com/JulioMansilla/co-op/blob/master/documents/room1.png)
+
 ### Room #2: Patio
 - Room Description: You step outside onto the patio. It is a chilly afternoon.
 - Pathways: House, WacDonalds, Downtown
 - Objects: Rocking Chair, Table, Chairs
 - Characters: Reginald
 - Art: /img/bg-patio.jpg
-- Image:
+- Image: documents/room2.png
 ![Room2](https://github.com/JulioMansilla/co-op/blob/master/documents/room2.png)
+
 ### Room #3: WacDonalds
 - Room Description: A nice place to eat.
 - Pathways: Patio, Behind WacDonalds
 - Objects: Table, Chair, Register
 - Characters: R2 Flip2
-- Image:
+- Image: documents/room3.png
 ![Room3](https://github.com/JulioMansilla/co-op/blob/master/documents/room3.png)
+
 ### Room #4 Behind WacDonalds 
 - Room Description: There's a dumpster.
 - Pathways: WacDonalds, SpaceX
 - Objects: Dumpster
 - Character: Dumpster diver
-- Image:
+- Image: documents/room4.png
 ![Room4](https://github.com/JulioMansilla/co-op/blob/master/documents/room4.png)
+
 ### Room #5: SpaceX
 - Room Description: A company that needs you as an employee, because everyone else is at the polls.
 - Pathways: Behind WacDonalds, Downtown
 - Objects: Desk
 - Characters: Elon Lastname, Musk recruiter
-- Image:
+- Image: documents/room5.png
 ![Room5](https://github.com/JulioMansilla/co-op/blob/master/documents/room5.png)
+
 ### Room #6: Downtown
 - Room Description: Everyone is yelling and in a hurry for no particular reason.
 - Pathways: Patio, SpaceX, Polls
 - Objects: 
 - Characters: Citizens, Gritty, and Testostero
-- Image:
+- Image: documents/room6.png
 ![Room6](https://github.com/JulioMansilla/co-op/blob/master/documents/room6.png)
+
 ### Room #7: Polls
 - Room Description: You can vote here. Nothing else is important.
 - Pathways: Downtown, WacDonalds, Launchpad
 - Objects: Booths
 - Characters: Voters and Vote bot
-- Image:
+- Image: documents/room7.png
 ![Room7](https://github.com/JulioMansilla/co-op/blob/master/documents/room7.png)
 
 ### Room #8: Launchpad:
@@ -314,7 +329,7 @@ _Stats: (24 points to spend for enemies, max is 8 for one category)_
 - Pathways: Polls
 - Objects: Launchpad, Rocket
 - Characters: Voters
-- Image:
+- Image: documents/room8.png
 ![Room8](https://github.com/JulioMansilla/co-op/blob/master/documents/room8.png)
 
 Mars 2020:
