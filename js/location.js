@@ -1,39 +1,64 @@
-{ 
-	"name":"John", 
-	"age":30, 
-	"car":null }
-{ 
+
+room1 = { 
 	"location":"House",
- 	"characters":null,
-  	"objects":"Bed, Mirror, PC" 
+	"pathways":"Patio",
+ 	"characters":"House-fly",
+  	"objects":"Bed, Mirror, PC",
+  	"images":"img/backgrounds/room1.png",
 }
 
-{ 
-	"location":"Patio", 
-	"characters":null, 
-	"objects":"Table, Chairs" 
+room2 = { 
+	"location":"Patio",
+	"pathways":"House, WacDonalds, Downtown",
+	"characters":"Reginald", 
+	"objects":"Table, Chairs", 
+  	"images":"img/backgrounds/room2.png",
 }
 
-{ 
-	"location":"WacDonalds", 
-	"characters":"Employee, Customer", 
-	"objects":"Vending Machine, Register" 
+room3 = { 
+	"location":"WacDonalds",
+	"pathways":"Patio, Behind WacDonalds", 
+	"characters":"R2 Flip2", 
+	"objects":"Vending Machine, Register",
+  	"images":"img/backgrounds/room3.png",
 }
 
-{ 
-	"location":"Behind WacDonalds", 
-	"characters":"Thief", 
-	"objects":"Dumpster" 
+room4 = { 
+	"location":"Behind WacDonalds",
+	"pathways":"WacDonalds, SpaceX", 
+	"characters":"Dumpster diver", 
+	"objects":"Dumpster",
+  	"images":"img/backgrounds/room4.png",
 }
 
-{ 
+room5 = { 
+	"location":"SpaceX", 
+	"pathways":"Behind WacDonalds, Downtown",
+	"characters":"Elon Lastname, Musk recruiter", 
+	"objects":"Box", 
+  	"images":"img/backgrounds/room5.png",
+}
+
+room6 = { 
+	"location":"Downtown", 
+	"pathways":"Patio, SpaceX, Polls",
+	"characters":"Citizens, Gritty, Testostero", 
+	"objects":"Box", 
+  	"images":"img/backgrounds/room6.png",
+}
+
+room7 = { 
 	"location":"Polls", 
-	"characters":null, 
-	"objects":"Box" 
+	"pathways":"Downtown, WacDonalds, Launchpad",
+	"characters":"Voters and Vote bot", 
+	"objects":"Box", 
+  	"images":"img/backgrounds/room7.png",
 }
 
-{ 
-	"location":"Launchpad", 
-	"characters":null, 
-	"objects":"Rocket" 
+room8 = { 
+	"location":"Launchpad",
+	"pathways":"Polls", 
+	"characters":"Voters", 
+	"objects":"Rocket", 
+  	"images":"img/backgrounds/room8.png",
 }
