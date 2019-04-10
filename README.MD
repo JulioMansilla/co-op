@@ -292,10 +292,7 @@ _Stats: (24 points to spend for enemies, max is 8 for one category)_
 - Objects: Launchpad, Rocket
 - Characters: Voters
 - Image:
- ```
-![alt text](https://github.com/JulioMansilla/co-op/blob/master/documents/room8.png "Logo Title Text 1")
-```
-
+![Room8](https://github.com/JulioMansilla/co-op/blob/master/documents/room8.png)
 
 Mars 2020:
 
