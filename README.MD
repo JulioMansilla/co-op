@@ -272,65 +272,64 @@ _Stats: (24 points to spend for enemies, max is 8 for one category)_
 - Pathways: Patio
 - Objects: Bed, PC, Mirror
 - Characters: House-fly
-- Image: documents/room1.png
-![Room1](https://github.com/JulioMansilla/co-op/blob/master/documents/room1.png)
+- Image: img/backgrounds/room1.png
+![Room1](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room1.png)
 
 ### Room #2: Patio
 - Room Description: You step outside onto the patio. It is a chilly afternoon.
 - Pathways: House, WacDonalds, Downtown
 - Objects: Rocking Chair, Table, Chairs
 - Characters: Reginald
-- Art: /img/bg-patio.jpg
-- Image: documents/room2.png
-![Room2](https://github.com/JulioMansilla/co-op/blob/master/documents/room2.png)
+- Image: img/backgrounds/room2.png
+![Room2](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room2.png)
 
 ### Room #3: WacDonalds
 - Room Description: A nice place to eat.
 - Pathways: Patio, Behind WacDonalds
 - Objects: Table, Chair, Register
 - Characters: R2 Flip2
-- Image: documents/room3.png
-![Room3](https://github.com/JulioMansilla/co-op/blob/master/documents/room3.png)
+- Image: img/backgrounds/room3.png
+![Room3](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room3.png)
 
 ### Room #4 Behind WacDonalds 
 - Room Description: There's a dumpster.
 - Pathways: WacDonalds, SpaceX
 - Objects: Dumpster
 - Character: Dumpster diver
-- Image: documents/room4.png
-![Room4](https://github.com/JulioMansilla/co-op/blob/master/documents/room4.png)
+- Image: img/backgrounds/room4.png
+![Room4](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room4.png)
 
 ### Room #5: SpaceX
 - Room Description: A company that needs you as an employee, because everyone else is at the polls.
 - Pathways: Behind WacDonalds, Downtown
 - Objects: Desk
 - Characters: Elon Lastname, Musk recruiter
-- Image: documents/room5.png
-![Room5](https://github.com/JulioMansilla/co-op/blob/master/documents/room5.png)
+- Image: img/backgrounds/room5.png
+![Room5](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room5.png)
 
 ### Room #6: Downtown
 - Room Description: Everyone is yelling and in a hurry for no particular reason.
 - Pathways: Patio, SpaceX, Polls
 - Objects: 
 - Characters: Citizens, Gritty, and Testostero
-- Image: documents/room6.png
-![Room6](https://github.com/JulioMansilla/co-op/blob/master/documents/room6.png)
+- Image: img/backgrounds/room6.png
+![Room6](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room6.png)
 
 ### Room #7: Polls
 - Room Description: You can vote here. Nothing else is important.
 - Pathways: Downtown, WacDonalds, Launchpad
 - Objects: Booths
 - Characters: Voters and Vote bot
-- Image: documents/room7.png
-![Room7](https://github.com/JulioMansilla/co-op/blob/master/documents/room7.png)
+- Image: img/backgrounds/room7.png
+![Room7](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room7.png)
 
 ### Room #8: Launchpad:
 - Room Description: You can take off to Mars if you vote first.
 - Pathways: Polls
 - Objects: Launchpad, Rocket
 - Characters: Voters
-- Image: documents/room8.png
-![Room8](https://github.com/JulioMansilla/co-op/blob/master/documents/room8.png)
+- Image: img/backgrounds/room8.png
+![Room8](https://github.com/JulioMansilla/co-op/blob/master/img/backgrounds/room8.png)
 
 Mars 2020:
 
