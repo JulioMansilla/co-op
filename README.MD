@@ -80,56 +80,56 @@ Attribute Bonus
 - Name: House-fly
 - initial location: House
 - Bio: flies in house
-- Img:img/character images/Character1.png
+- Img:img/character-images/Character1.png
 ![Character1](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character1.png)
 
 ### Character # 2
 - Name: Reginald
 - initial location: Patio
 - Bio: Encourages you to pokemon go to the pols
-- Img:img/character images/Character2.png
+- Img:img/character-images/Character2.png
 ![Character2](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character2.png)
 
 ### Character # 3
 - Name: R2 Flip2
 - initial location: Wacdonalds
 - Bio: The only reason it exists is to flip patties
-- Img:img/character images/Character3.png
+- Img:img/character-images/Character3.png
 ![Character3](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character3.png)
 
 ### Character # 4
 - Name: Gritty
 - initial location: Dowtown
 - Bio: Incourages you to seize the means of production.
-- Img:img/character images/Character4.png
+- Img:img/character-images/Character4.png
 ![Character4](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character4.png)
 
 ### Character # 5
 - Name: Testostero
 - initial location: Downtown
 - Bio: Warns you about the dangers of soy, and offers to sell you his masculinity pill. Functions as a merchant for attack buff items.
-- Img:img/character images/Character5.png
+- Img:img/character-images/Character5.png
 ![Character5](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character5.png)
 
 ### Character # 6
 - Name: Musk recruiter
 - initial location: Space X
 - Bio: Tells you she loves her job and you should work for space X too.
-- Img:img/character images/Character6.png
+- Img:img/character-images/Character6.png
 ![Character6](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character6.png)
 
 ### Character # 7
 - Name: Dumpster diver
 - initial location: back of Wacdonalds
 - Bio: Tells you about the treasures that can be found inside the dumpster.
-- Img: img/character%20images/Character7.png
+- Img: img/character-images/Character7.png
 ![Character7](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character7.png)
 
 ### Character # 8
 - Name: Vote bot
 - initial location: Polls
 - Bio: Tells you that your decision will decide the fate of the world.
-- Img: img/character images/Character8.png
+- Img: img/character-images/Character8.png
 ![Character8](https://github.com/JulioMansilla/co-op/blob/master/img/character%20images/Character8.png)
 
 
