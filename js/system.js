@@ -3,36 +3,36 @@ var commandList = ["go", "inspect", "use", "talk", "grab", "run", "red-button"];
 
 function changeRoom(cardinalDirection) {
 
-	if (rooms[currentRoom].pathways[cardinalDirection] !== undefined)
-	{	
-		currentRoom = rooms[currentRoom].pathways[cardinalDirection];
-		$('#g-output').append("<p>" + rooms[currentRoom].description + "<p>");
-	}
-	else {
-		console.log("ERROR!");
-		$('#g-output').append("<p>" + "ERROR!" + "<p>");
+	if (locations[currentRoom].pathways[cardinalDirection] !== undefined){	
+		currentRoom = locations[currentRoom].pathways[cardinalDirection];
+		$('#g-output').empty("");
+		$('#g-output').append("<p>" + locations[currentRoom].description + "</p>");
+	}else{
+		$('#g-output').append("<p>Error</p>");
 	}
 
 }
 
 function commands(gInput) {
+	console.log(gInput);
 	var command = gInput.split(" ")[0];
-	if (command == "go") {
-		var cardinalDirection = gInput.split(" ")[1];
-		changeRoom(cardinalDirection);
+	switch(command) {
+		case "go":
+			var cardinalDirection = gInput.split(" ")[1];
+			changeRoom(cardinalDirection);
+			break;
+		default:
+			$('#g-output').append("<p> Invalid command: you typed" +command+ "</p>");
 	}
 }
 
 $(document).ready(function(){
-	$('#g-output').val(' ');
-	$('#g-output').append("<p>" + rooms[currentRoom].description + "<p>");
-
+	$('#g-output').append("<p>" + locations[currentRoom].description + "</p>");
 	$(document).keypress(function(key) {
-		if (key.which == 13) 
+		if(key.which == 13) 
 		{
 			var gInput = $('#g-input').val();
-			$('#g-input').val(' ');
-
+			$('#g-input').val("");
 			commands(gInput);
 		}
 		  
