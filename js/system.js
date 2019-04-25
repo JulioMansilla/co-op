@@ -5,6 +5,7 @@ function changeRoom(cardinalDirection) {
 
 	if (locations[currentRoom].pathways[cardinalDirection] !== undefined){	
 		currentRoom = locations[currentRoom].pathways[cardinalDirection];
+		$('body').css("background-image", "url(" + locations[currentRoom].img + ")");  
 		$('#g-output').empty("");
 		$('#g-output').append("<p>" + locations[currentRoom].description + "</p>");
 	}else{
@@ -27,6 +28,7 @@ function commands(gInput) {
 }
 
 $(document).ready(function(){
+	$('body').css("background-image", "url(" + locations[currentRoom].img + ")");  
 	$('#g-output').append("<p>" + locations[currentRoom].description + "</p>");
 	$(document).keypress(function(key) {
 		if(key.which == 13) 
