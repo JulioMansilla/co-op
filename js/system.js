@@ -1,5 +1,7 @@
 var currentRoom = "House";
+var currentEntity = "";
 var commandList = ["go", "inspect", "use", "talk", "grab", "run", "red-button"];
+var currentDescription = "";
 
 function changeRoom(cardinalDirection) {
 
@@ -14,6 +16,23 @@ function changeRoom(cardinalDirection) {
 
 }
 
+function changeFocus(entity) {
+	if (locations[currentRoom].objects[entity] !== undefined){
+
+		if (locations[currentRoom].objects[entity] == entities[entity]){
+			currentDescription = entities[entity].description;
+		}
+		else {
+			currentDescription = locations[currentRoom].objects[entity].description;
+		}
+		currentEntity = locations[currentRoom].objects[entity];
+		$('#g-output').empty("");
+		$('#g-output').append("<p>" + currentRoom + "</p>");
+
+}
+
+
+
 function commands(gInput) {
 	console.log(gInput);
 	var command = gInput.split(" ")[0];
@@ -22,6 +41,9 @@ function commands(gInput) {
 			var cardinalDirection = gInput.split(" ")[1];
 			changeRoom(cardinalDirection);
 			break;
+		case "inspect":
+			var entity = gInput.split(" ")[1];
+			changeFocus(entity);
 		default:
 			$('#g-output').append("<p> Invalid command: you typed" +command+ "</p>");
 	}
