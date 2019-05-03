@@ -1,4 +1,4 @@
-var currentRoom = "House";
+var currentRoom = "house";
 var currentEntity = "";
 var commandList = ["go", "inspect", "use", "talk", "grab", "run", "red-button"];
 var currentDescription = "";
