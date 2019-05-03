@@ -17,21 +17,22 @@ function changeRoom(cardinalDirection) {
 }
 
 function changeFocus(entity) {
-	if (locations[currentRoom].objects[entity] !== undefined){
-
-		if (locations[currentRoom].objects[entity] == entities[entity]){
-			currentDescription = entities[entity].description;
-		}
-		else {
-			currentDescription = locations[currentRoom].objects[entity].description;
-		}
+	if (locations[currentRoom].objects[entity] !== undefined && entities[entity] !== undefined)
+	{
+		currentEntity = entities[entity];
+		
+	}
+	else 
+	{
 		currentEntity = locations[currentRoom].objects[entity];
-		$('#g-output').empty("");
-		$('#g-output').append("<p>" + currentRoom + "</p>");
 
+	}
+
+	currentDescription = currentEntity.description;
+
+	$('#g-output').empty("");
+	$('#g-output').append("<p>" + currentDescription + "</p>");
 }
-
-
 
 function commands(gInput) {
 	console.log(gInput);
