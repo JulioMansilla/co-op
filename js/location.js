@@ -1,7 +1,7 @@
 var locations = {
 	"House":{
 		"img":"img/backgrounds/room1.png",
-		"description":"You wake up in this room feeling tired despite the fact that the clock says it's eleven. Then open twitter and see many people complaining about not being able to vote because of a recently passed bill to prevent voter Id fraud. You look up the bill and notice that you are still able to vote despite the bills strange restrictions. With a sense of duty overcoming you, you stand up from your bed and look around the room, and see a <b>Fly</b> as well as your patio to the <b>East you see your patio</b>",
+		"description":"You wake up in this room feeling tired despite the fact that the clock says it's eleven. Then open twitter and see many people complaining about not being able to vote because of a recently passed bill to prevent voter Id fraud. You look up the bill and notice that you are still able to vote despite the bills strange restrictions. With a sense of duty overcoming you, you stand up from your bed and look around the room, and see a <i>Fly</i> as well as your patio to the <i>East you see your patio</i>",
 		"objects":{
 			"Bed":{
 				"description":"it's a Bed",
@@ -18,7 +18,7 @@ var locations = {
 	},
 	"Patio":{
 		"img":"img/backgrounds/room2.png",
-		"description":"You step outside onto the patio, and feel the cool november air fill your lungs, as you look out and across the road you see your neighbor <b>Reginald</b> that you can't stand. In order to avoid eye contact you you look at the <b>table</b> and <b>chairs</b> To the <b>east</b> you see your favorite restraunt Wacdonalds, and to the <b> south</b> you hear the commotion of people rushing to vote.",
+		"description":"You step outside onto the patio, and feel the cool november air fill your lungs, as you look out and across the road you see your neighbor <i>Reginald</i> that you can't stand. In order to avoid eye contact you you look at the <i>table</i> and <i>chairs</i> To the <i>east</i> you see your favorite restraunt Wacdonalds, and to the <i> south</i> you hear the commotion of people rushing to vote.",
 		"objects":{
 			"Table":{
 			"description":"A rickety slanted table covered in cobwebs. The sight of it makes you uneasy",
