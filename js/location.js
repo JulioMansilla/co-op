@@ -1,145 +1,145 @@
 var locations = {
-	"House":{
+	"house":{
 		"img":"img/backgrounds/room1.png",
 		"description":"You wake up in this room feeling tired despite the fact that the clock says it's eleven. Then open twitter and see many people complaining about not being able to vote because of a recently passed bill to prevent voter Id fraud. You look up the bill and notice that you are still able to vote despite the bills strange restrictions. With a sense of duty overcoming you, you stand up from your bed and look around the room, and see a <i>Fly</i> as well as your patio to the <i>East you see your patio</i>",
 		"objects":{
-			"Bed":{
+			"bed":{
 				"description":"it's a Bed",
 				"interaction": "you sleep!"
 			},
-			"House-fly":{
+			"house-fly":{
 				"description":"flies around",
 				"interaction": "you swat!"
 			}
 		},
 		"pathways":{
-			"east":"Patio"
+			"east":"patio"
 		}
 	},
-	"Patio":{
+	"patio":{
 		"img":"img/backgrounds/room2.png",
 		"description":"You step outside onto the patio, and feel the cool november air fill your lungs, as you look out and across the road you see your neighbor <i>Reginald</i> that you can't stand. In order to avoid eye contact you you look at the <i>table</i> and <i>chairs</i> To the <i>east</i> you see your favorite restraunt Wacdonalds, and to the <i> south</i> you hear the commotion of people rushing to vote.",
 		"objects":{
-			"Table":{
+			"table":{
 			"description":"A rickety slanted table covered in cobwebs. The sight of it makes you uneasy",
 			"interaction": "you flip the table!"
 			},
-			"Chairs":{
+			"chairs":{
 				"description":"A collection of damp uncomfortable chairs.", 
 				"interaction": "You sit in the chair for a short period but get off it quickly due to its poor construction."
 			},
-			"Reginald":{
+			"reginald":{
 				"description":"Encouraging you to Pokemon-GO to the Polls", 
 				"interaction": "you talk!"
 			}
 		},
 		"pathways":{
-			"west":"House",
-			"east":"WacDonalds",
-			"south":"Downtown"	
+			"west":"house",
+			"east":"wacdonalds",
+			"south":"downtown"	
 		}
 	},
-	"WacDonalds":{
+	"wacdonalds":{
 		"img":"img/backgrounds/room3.png",
 		"description":"When you you enter you are met with the sweet scent of the deep fryer, as the WacDonalds Robot greets you.",
 		"objects":{
-			"Register":{
+			"register":{
 			"description":"A new register created for the hands of the new WacDonalds robots",
 			"interaction": "the WacDonalds robot tells you not to touch it!"
 			},
-			"Vending Machine":{
+			"vending-machine":{
 			"description":"A tall vending Machine for big Wacs",
 			"interaction": "you sleep!"
 			},
-			"R2-Flip2":{
+			"r2-flip2":{
 			"description":"Existing only to flip patties",
 			"interaction": "you talk!"
 			}
 		},
 		"pathways":{
-			"west":"Patio",
-			"east":"Behind WacDonalds"
+			"west":"patio",
+			"east":"behind wacdonalds"
 		}
 	},
-	"Behind WacDonalds":{
+	"behind wacdonalds":{
 		"img":"img/backgrounds/room4.png",
 		"description":"I'm hating it",
 		"objects":{
-			"Dumpster":{
+			"dumpster":{
 			"description":"A disgusting trash filled Dumpster", 
 			"interaction": "You hop in the dumpster and only a moment later you are in SpaceX!"
 			},
-			"Thief":{
+			"thief":{
 			"description":"Looks like a true WacDonalds fan", 
 			"interaction": "tells you about the treasures that can be found in the dumpster before mugging you!"
 			}
 		},
 		"pathways":{
-			"west":"WacDonalds",
-			"in":"SpaceX"
+			"west":"wacdonalds",
+			"in":"spacex"
 		}
 	},
-	"SpaceX":{
+	"spacex":{
 		"img":"img/backgrounds/room5.png",
 		"description":"A company that needs you as an employee, because everyone else is at the polls..",
 		"objects":{
-			"Musk recruiter":{
+			"musk recruiter":{
 				"description":"A scaley reptillian who finds new SpaceX recruits",
 				"interaction":"You are offered a job! Do you accept?"
 			}
 		},
 		"pathways":{
-			"out":"Behind WacDonalds",
-			"east":"Downtown",
-			"accept":"Launchpad"
+			"out":"behind wacdonalds",
+			"east":"downtown",
+			"accept":"launchpad"
 		}
 	},
-	"Downtown":{
+	"downtown":{
 		"img":"img/backgrounds/room6.png",
 		"description":"Everyone is yelling and in a hurry for no particular reason.",
 		"objects":{
-			"Gritty":{
+			"gritty":{
 			"description":"A large orange bearded wizard",
 			"interaction": "You talk!"
 			},
-			"Testostero":{
+			"testostero":{
 				"description":"An intense unpleasant snake oil salesman",
 				"interaction": "Warning you about the dangers of soy while offering his items that buff your weapons!"
 			}
 		},
 		"pathways":{
-			"north":"Patio",
-			"west":"SpaceX",
+			"north":"patio",
+			"west":"spacex",
 			"east":"polls"
 		}
 	},
-	"Polls":{
+	"polls":{
 		"img":"img/backgrounds/room7.png",
 		"description":"You can vote here. Nothing else is important.",
 		"objects":{
-			"Vote-Bot":{
+			"vote-bot":{
 				"description":"Reminding you that your decision will change the world",
 				"interaction": "you talk!"
 			},
-			"Voting Machine":{
+			"voting machine":{
 				"description":"A tall Voting Machine",
 				"interaction": "you vote!"
 			},
-			"Bed":{
+			"bed":{
 				"description":"it's a Bed",
 				"interaction": "you sleep!"
 			}
 		},
 		"pathways":{
-			"west":"Downtown",
-			"east":"Launchpad"
+			"west":"downtown",
+			"east":"launchpad"
 		}
 	},
-	"Launchpad":{
+	"launchpad":{
 		"img":"img/backgrounds/room8.png",
 		"description":"You can take off to Mars if you vote first.",
 		"objects":{
-			"Rocket":{
+			"rocket":{
 				"description":"A large Rocket bound for Mars", 
 				"interaction": "The Rocket takes off!"
 			},
@@ -149,8 +149,8 @@ var locations = {
 			}
 		},
 		"pathways":{
-			"west":"Polls",
-			"south":"SpaceX"
+			"west":"polls",
+			"south":"spacex"
 		}
 	}
 };
