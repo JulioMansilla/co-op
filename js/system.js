@@ -20,15 +20,21 @@ function changeFocus(entity) {
 	if (locations[currentRoom].objects[entity] !== undefined && entities[entity] !== undefined)
 	{
 		currentEntity = entities[entity];
+		currentDescription = currentEntity.description;
 		
+	}
+	else if(locations[currentRoom].objects[entity] !== undefined) 
+	{
+		currentEntity = locations[currentRoom].objects[entity];
+		currentDescription = currentEntity.description;
+
 	}
 	else 
 	{
-		currentEntity = locations[currentRoom].objects[entity];
-
+		currentDescription = "<p>" + entity + " is nowhere to be found.</p>";
 	}
 
-	currentDescription = currentEntity.description;
+	
 
 	$('#g-output').empty("");
 	$('#g-output').append("<p>" + currentDescription + "</p>");
@@ -44,7 +50,9 @@ function commands(gInput) {
 			break;
 		case "inspect":
 			var entity = gInput.split(" ")[1];
+			console.log(entity);
 			changeFocus(entity);
+			break;
 		default:
 			$('#g-output').append("<p> Invalid command: you typed" +command+ "</p>");
 	}
@@ -56,7 +64,7 @@ $(document).ready(function(){
 	$(document).keypress(function(key) {
 		if(key.which == 13) 
 		{
-			var gInput = $('#g-input').val();
+			var gInput = $('#g-input').val().toLowerCase();
 			$('#g-input').val("");
 			commands(gInput);
 		}
