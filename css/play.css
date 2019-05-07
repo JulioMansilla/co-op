@@ -15,7 +15,7 @@ body {
 }
 
 p {
-  color: black;
+  color: #4286f4;
   font-size: 25px;
   font-family: 'Luckiest Guy', cursive;
 }
@@ -53,4 +53,8 @@ input::placeholder {
   font-size: 25px;
   color: white;
   font-family: 'Comic Sans MS';
+}
+
+i {
+  color: rgb(50, 50, 255);
 }
