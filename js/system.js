@@ -9,6 +9,7 @@ function changeRoom(cardinalDirection) {
 		currentRoom = locations[currentRoom].pathways[cardinalDirection];
 		$('body').css("background-image", "url(" + locations[currentRoom].img + ")");  
 		$('#g-output').empty("");
+		$('.fifty').css("background-image", "url(img/character-images/character0.png)");
 		$('#g-output').append("<p>" + locations[currentRoom].description + "</p>");
 	}else{
 		$('#g-output').append("<p>Error</p>");
@@ -17,22 +18,27 @@ function changeRoom(cardinalDirection) {
 }
 
 function changeFocus(entity) {
-	if (locations[currentRoom].objects[entity] !== undefined && entities[entity] !== undefined)
-	{
-		currentEntity = entities[entity];
-		currentDescription = currentEntity.description;
-		
-	}
-	else if(locations[currentRoom].objects[entity] !== undefined) 
+	
+	if(locations[currentRoom].objects[entity] !== undefined) 
 	{
 		currentEntity = locations[currentRoom].objects[entity];
 		currentDescription = currentEntity.description;
 
 	}
-	else 
+	else
 	{
 		currentDescription = "<p>" + entity + " is nowhere to be found.</p>";
 	}
+	if (entities[entity] !== undefined)
+	{
+		currentEntity = entities[entity];
+		currentDescription = currentEntity.description;
+		$('.fifty').css("background", "url(" + currentEntity.image + ") no-repeat fixed center"); 
+		$('.fifty').css("background-size", "50%"); 
+
+		
+	}
+	
 
 	
 
