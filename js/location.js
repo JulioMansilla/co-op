@@ -5,11 +5,20 @@ var locations = {
 		"objects":{
 			"bed":{
 				"description":"it's a Bed",
-				"interaction": "you sleep!"
+				"interaction": "you sleep!",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"house-fly":{
 				"description":"flies around",
-				"interaction": "you swat!"
+				"interaction": "you swat!",
 			}
 		},
 		"pathways":{
@@ -22,11 +31,29 @@ var locations = {
 		"objects":{
 			"table":{
 			"description":"A rickety slanted table covered in cobwebs. The sight of it makes you uneasy",
-			"interaction": "you flip the table!"
+			"interaction": "you flip the table!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"chairs":{
 				"description":"A collection of damp uncomfortable chairs.", 
-				"interaction": "You sit in the chair for a short period but get off it quickly due to its poor construction."
+				"interaction": "You sit in the chair for a short period but get off it quickly due to its poor construction.",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"reginald":{
 				"description":"Encouraging you to Pokemon-GO to the Polls", 
@@ -45,15 +72,42 @@ var locations = {
 		"objects":{
 			"register":{
 			"description":"A new register created for the hands of the new WacDonalds robots",
-			"interaction": "the WacDonalds robot tells you not to touch it!"
+			"interaction": "the WacDonalds robot tells you not to touch it!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"vending-machine":{
 			"description":"A tall vending Machine for big Wacs",
-			"interaction": "you sleep!"
+			"interaction": "you sleep!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"r2-flip2":{
-			"description":"Existing only to flip patties",
-			"interaction": "you talk!"
+			"description":"Existing only ,to flip patties",
+			"interaction": "you talk!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			}
 		},
 		"pathways":{
@@ -67,11 +121,29 @@ var locations = {
 		"objects":{
 			"dumpster":{
 			"description":"A disgusting trash filled Dumpster", 
-			"interaction": "You hop in the dumpster and only a moment later you are in SpaceX!"
+			"interaction": "You hop in the dumpster and only a moment later you are in SpaceX!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"thief":{
 			"description":"Looks like a true WacDonalds fan", 
-			"interaction": "tells you about the treasures that can be found in the dumpster before mugging you!"
+			"interaction": "tells you about the treasures that can be found in the dumpster before mugging you!",
+			'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			}
 		},
 		"pathways":{
@@ -85,7 +157,16 @@ var locations = {
 		"objects":{
 			"musk recruiter":{
 				"description":"A scaley reptillian who finds new SpaceX recruits",
-				"interaction":"You are offered a job! Do you accept?"
+				"interaction":"You are offered a job! Do you accept?",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			}
 		},
 		"pathways":{
@@ -123,11 +204,29 @@ var locations = {
 			},
 			"voting machine":{
 				"description":"A tall Voting Machine",
-				"interaction": "you vote!"
+				"interaction": "you vote!",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"bed":{
 				"description":"it's a Bed",
-				"interaction": "you sleep!"
+				"interaction": "you sleep!",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			}
 		},
 		"pathways":{
@@ -141,11 +240,29 @@ var locations = {
 		"objects":{
 			"rocket":{
 				"description":"A large Rocket bound for Mars", 
-				"interaction": "The Rocket takes off!"
+				"interaction": "The Rocket takes off!",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			},
 			"candidate you chose":{
 				"description":"candidate that you chose", 
-				"interaction": "you talk!"
+				"interaction": "you talk!",
+				'stats':
+				{	
+					'Strength':"7",
+					'Dexterity':"7",
+					'Constitution':"7",
+					'Intelligence':"7",
+					'Wisdom':"7",
+					'Luck':"7"
+				}
 			}
 		},
 		"pathways":{
