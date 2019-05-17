@@ -2,6 +2,12 @@ var currentRoom = "house";
 var currentEntity = "";
 var commandList = ["go", "inspect", "use", "talk", "grab", "run", "red-button"];
 var currentDescription = "";
+var spawn = {};
+
+function calcBonus(stat) {
+	var bonus = Math.floor(stat - 10)/2;
+	return bonus;
+}
 
 function changeRoom(cardinalDirection) {
 
@@ -17,13 +23,13 @@ function changeRoom(cardinalDirection) {
 
 }
 
-function changeFocus(entity) {
+function inspect(entity) {
 	
 	if(locations[currentRoom].objects[entity] !== undefined) 
 	{
 		currentEntity = locations[currentRoom].objects[entity];
 		currentDescription = currentEntity.description;
-
+		
 	}
 	else
 	{
@@ -46,6 +52,10 @@ function changeFocus(entity) {
 	$('#g-output').append("<p>" + currentDescription + "</p>");
 }
 
+function attack(target) {
+
+}
+
 function commands(gInput) {
 	console.log(gInput);
 	var command = gInput.split(" ")[0];
@@ -57,7 +67,11 @@ function commands(gInput) {
 		case "inspect":
 			var entity = gInput.split(" ")[1];
 			console.log(entity);
-			changeFocus(entity);
+			inspect(entity);
+			break;
+		case "attack":
+			var target =gInput.split(" ")[1];
+			attack(target);
 			break;
 		default:
 			$('#g-output').append("<p> Invalid command: you typed" +command+ "</p>");
