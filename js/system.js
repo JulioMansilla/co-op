@@ -65,6 +65,9 @@ function inspect(entity) {
 }
 
 function attack(target) {
+	while(cliff.hp >= 0 && spawn.hp >= 0){
+		
+	}
 
 }
 
