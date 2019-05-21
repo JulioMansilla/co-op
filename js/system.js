@@ -1,3 +1,15 @@
+var cliff = {
+	hp : roll(8)+calcBonus(currentEntity.stats.Constitution),
+	ab : calcBonus(currentEntity.stats.Dexterity),
+	ac : 10 + calcBonus(currentEntity.stats.Dexterity),
+	wdmg : calcBonus(currentEntity.stats.Strength),
+	wdice : 3,
+	hit : currentEntity.dialogue.attack.text,
+	miss : currentEntity.dialogue.miss.text,
+	win : currentEntity.dialogue.win.text,
+	lose : currentEntity.dialogue.lose.text
+
+	}
 var currentRoom = "house";
 var currentEntity = {};
 var commandList = ["go", "inspect", "attack", "use", "talk", "grab", "run", "red-button"];
@@ -29,6 +41,18 @@ function inspect(entity) {
 	{
 		currentEntity = locations[currentRoom].objects[entity];
 		currentDescription = currentEntity.description;
+		spawn = {
+			hp : roll(8)+calcBonus(currentEntity.stats.Constitution),
+			ab : calcBonus(currentEntity.stats.Dexterity),
+			ac : 10 + calcBonus(currentEntity.stats.Dexterity),
+			wdmg : calcBonus(currentEntity.stats.Strength),
+			wdice : 3,
+			hit : currentEntity.dialogue.attack.text,
+			miss : currentEntity.dialogue.miss.text,
+			win : currentEntity.dialogue.win.text,
+			lose : currentEntity.dialogue.lose.text
+
+		}
 		
 	}
 	else
