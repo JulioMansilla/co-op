@@ -29,6 +29,12 @@ function inspect(entity) {
 	{
 		currentEntity = locations[currentRoom].objects[entity];
 		currentDescription = currentEntity.description;
+		spawn = {
+			"hp": 8 + calcBonus(currentEntity[stats].Constitution),
+			"ab": calcBonus(currentEntity[stats].Dexterity),
+			"ac": 10 + calcBonus(currentEntity[stats].Dexterity),
+			"wdmg": calcBonus(currentEntity[stats].Strength)
+		};
 		
 	}
 	else
