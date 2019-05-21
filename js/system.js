@@ -1,6 +1,18 @@
+var cliff = {
+	hp : roll(8)+calcBonus(currentEntity.stats.Constitution),
+	ab : calcBonus(currentEntity.stats.Dexterity),
+	ac : 10 + calcBonus(currentEntity.stats.Dexterity),
+	wdmg : calcBonus(currentEntity.stats.Strength),
+	wdice : 3,
+	hit : currentEntity.dialogue.attack.text,
+	miss : currentEntity.dialogue.miss.text,
+	win : currentEntity.dialogue.win.text,
+	lose : currentEntity.dialogue.lose.text
+
+	}
 var currentRoom = "house";
-var currentEntity = "";
-var commandList = ["go", "inspect", "use", "talk", "grab", "run", "red-button"];
+var currentEntity = {};
+var commandList = ["go", "inspect", "attack", "use", "talk", "grab", "run", "red-button"];
 var currentDescription = "";
 var spawn = {};
 
@@ -30,11 +42,17 @@ function inspect(entity) {
 		currentEntity = locations[currentRoom].objects[entity];
 		currentDescription = currentEntity.description;
 		spawn = {
-			"hp": 8 + calcBonus(currentEntity[stats].Constitution),
-			"ab": calcBonus(currentEntity[stats].Dexterity),
-			"ac": 10 + calcBonus(currentEntity[stats].Dexterity),
-			"wdmg": calcBonus(currentEntity[stats].Strength)
-		};
+			hp : roll(8)+calcBonus(currentEntity.stats.Constitution),
+			ab : calcBonus(currentEntity.stats.Dexterity),
+			ac : 10 + calcBonus(currentEntity.stats.Dexterity),
+			wdmg : calcBonus(currentEntity.stats.Strength),
+			wdice : 3,
+			hit : currentEntity.dialogue.attack.text,
+			miss : currentEntity.dialogue.miss.text,
+			win : currentEntity.dialogue.win.text,
+			lose : currentEntity.dialogue.lose.text
+
+		}
 		
 	}
 	else
@@ -47,6 +65,18 @@ function inspect(entity) {
 		currentDescription = currentEntity.description;
 		$('.fifty').css("background", "url(" + currentEntity.image + ") no-repeat fixed center"); 
 		$('.fifty').css("background-size", "50%"); 
+		spawn = {
+			hp : roll(8)+calcBonus(currentEntity.stats.Constitution),
+			ab : calcBonus(currentEntity.stats.Dexterity),
+			ac : 10 + calcBonus(currentEntity.stats.Dexterity),
+			wdmg : calcBonus(currentEntity.stats.Strength),
+			wdice : 3,
+			hit : currentEntity.dialogue.attack.text,
+			miss : currentEntity.dialogue.miss.text,
+			win : currentEntity.dialogue.win.text,
+			lose : currentEntity.dialogue.lose.text
+
+		}
 
 		
 	}
