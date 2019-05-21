@@ -90,7 +90,19 @@ function inspect(entity) {
 
 function attack(target) {
 	while(cliff.hp >= 0 && spawn.hp >= 0){
-		
+		var turn = "cliff";
+		if(turn.equals ("cliff")){
+			if(cliff.ab + roll(20) >= spawn.ac){
+				spawn.hp = spawn.hp - diff.wdmg + roll(cliff.wdice);
+			}
+			turn = "spawn";
+		}
+		else if(turn.equals("spawn")){
+			if(spawn.ab + roll(20) >= cliff.ac){
+				cliff.hp = cliff.hp - diff.wdmg + roll(spawn.wdice);
+			}
+			turn = "cliff";
+		}
 	}
 
 }
